@@ -39,6 +39,8 @@ export const ArtCard: React.FC<ArtCardProps> = ({ collection, accentColor }) => 
                     src={collection.imageUrl} 
                     alt={collection.title} 
                     className="w-full h-full object-cover"
+                    crossOrigin="anonymous"
+                    referrerPolicy="no-referrer"
                 />
             )}
         </div>
